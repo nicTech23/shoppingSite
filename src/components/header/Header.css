@@ -1,0 +1,43 @@
+.header__logo{
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+.menu__link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.header{
+    background-color: #131921;
+}
+
+.menu__hover:hover{
+    background-color: gray;
+}
+
+.search{
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none !important;
+    color: white;
+    
+}
+
+@media (max-width:750px) {
+    .header__logo{
+        width: 50px;
+    }
+    .search{
+
+    }
+}
